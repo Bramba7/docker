@@ -64,6 +64,6 @@ docker run -rm -it bramba/awscli --version
 
 #### Checking S3 bucket list
 ```shell
-docker run -it -v ~/.aws:/root/.aws bramba/awscli s3
+docker run -it -v ~/.aws:/root/.aws bramba/awscli s3 ls
 ```
 
