@@ -1,14 +1,12 @@
 FROM alpine
 
-LABEL maintainer="Fernando B Mello <github/bramba7.com>"
+LABEL maintainer="Fernando B Mello <github/bramba7.com>" 
+ 
 
-RUN apk add --no-cache py-pip
+RUN apk add py-pip
 
 RUN pip install awscli
 
-VOLUME /root/.aws
+ENTRYPOINT [ "aws" ]
 
-WORKDIR /project
-
-#ENTRYPOINT [ "aws" ]
-
+CMD [ "--version" ]
