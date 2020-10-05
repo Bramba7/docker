@@ -27,12 +27,12 @@ In order to run this container you'll need docker installed.
 docker pull bramba/dockerdocker
 ```
 
-### Example to check if the container works:
+#### Example to check if the container is working:
 
 ```shell
 docker run --rm -v "/var/run/docker.sock:/var/run/docker.sock" bramba/dockerdocker /bin/sh -c "docker ps"
 ```
-### Example of access to the container shell:
+#### Example of access to container shell:
 
 ```shell
 docker run -v "/var/run/docker.sock:/var/run/docker.sock" bramba/dockerdocker /bin/sh
