@@ -35,5 +35,5 @@ docker run --rm -v "/var/run/docker.sock:/var/run/docker.sock" bramba/dockerdock
 #### Example of access to container shell:
 
 ```shell
-docker run -v "/var/run/docker.sock:/var/run/docker.sock" bramba/dockerdocker /bin/sh
+docker run -t -v "/var/run/docker.sock:/var/run/docker.sock" bramba/dockerdocker /bin/sh
 ```
