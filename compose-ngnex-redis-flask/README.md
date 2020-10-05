@@ -1,2 +1,2 @@
 
-![Schematic](images/composer-diagram.png)
+![](images/composer-diagram.png)
