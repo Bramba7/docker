@@ -1,12 +1,9 @@
 # Docker composer using Nginx, Flask, and Redis
 
-![](images/composer-diagram.png)
+![diagram](images/composer-diagram.png)
 
-A one paragraph description about the container.
 
 ## Getting Started
-
-These instructions will cover usage information and for the docker container 
 
 ### Prerequisities
 
