@@ -4,6 +4,17 @@
 
 This is a Docker Composer project that use reverse proxy to launch two webpage links: /static and /app.
 
+## Overview
+
+This Docker Compose configuration lets you run easily Nginx, Redis, Python Flask and Composer.
+It exposes 5 services:
+
+- reverse proxy (Nginx)
+- /static (Nginx)
+- /app (Flask)
+- db (redis)
+- composer
+
 ## Getting Started
 
 These instructions will cover usage information and for the docker container
