@@ -2,7 +2,7 @@
 ### version 1.2.8
 ![Docker Image Version (latest by date)](https://img.shields.io/docker/v/bramba/dockerdocker?color=green&logo=docker)
 ![Docker Pulls](https://img.shields.io/docker/pulls/bramba/dockerdocker?color=green&logo=docker)
-![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/bramba/dockerdocker?color=green&logo=docker)
+![Docker Image Size](https://img.shields.io/docker/image-size/bramba/dockerdocker?color=green&logo=docker)
 
 A one paragraph description about the container.
 
