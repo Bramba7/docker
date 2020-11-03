@@ -12,7 +12,7 @@ make the container as small as possible.
 
 These instructions will cover usage information and for the docker container 
 
-### Prerequisities
+### Prerequisites
 
 
 In order to run this container you'll need docker installed.
