@@ -29,19 +29,19 @@ In order to run this container you'll need docker installed.
 
 ### Clone this code
 
-```
+```sh
 git clone https://github.com/Bramba7/docker.git
 cd ~/docker/compose-nginx-redis-flask
 ```
 
 ### Run docker composer containers
 
-```
+```sh
 docker-composer up
 ```
 
 ### Destroy docker composer containers
 
-```
+```sh
 docker-composer down
 ```
