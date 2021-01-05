@@ -32,24 +32,24 @@ docker pull bramba/awscli
 
 #### Aws Configuration (linux and MacOs)
 Use [nano](https://nano-editor.org/), or other txt editor to create the aws credential config file:
-```
+```sh
 nano ~/.aws/credentials
 ```
 Copy the example below, and replace information without the "<>". :
 
-```
+```sh
 [default]
 aws_access_key_id= <ACCESS KEY ID>
 aws_secret_access_key= <SECRET KEY>
 ```
 
 Next step is to create another file containing more information.
-```
+```sh
 nano ~/.aws/config
 ```
 
 In the settings below, the zone must be inserted, and also the type of output file that can be "JSON" or "YAML"
-```
+```sh
 [default]
 region=<Location>
 output=<File type>
